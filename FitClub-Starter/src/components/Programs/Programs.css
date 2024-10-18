@@ -1,0 +1,67 @@
+.program {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.col-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-style: italic;
+    gap: 5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.programs-categories{
+    display: flex;
+    gap: 1rem;
+}
+
+.program-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    background-color: var(--gray);
+    padding: 2rem;  
+    color: white;
+}
+
+.program-card:hover{
+    background: var(--planCard);
+    cursor: pointer;
+}
+
+
+.program-card > :nth-child(1) {
+    height: 2rem;
+    width: 2rem;
+    fill: white;
+}
+
+.program-card > :nth-child(2){
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.program-card > :nth-child(3){
+   font-size: 0.9rem;
+   line-height: 25px;
+}
+
+
+.card-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;  
+}
+.card-end > img {
+    width: 1rem;
+}
