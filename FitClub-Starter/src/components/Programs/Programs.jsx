@@ -7,7 +7,7 @@ import { programsData } from "../../data/programsData";
 const Programs = () => {
     return (
         <>
-            <div className="program">
+            <div className="program" id="programs">
                 <div className="col-1">
                     <span className="stroke-text">explore our</span>
                     <span>programs</span>

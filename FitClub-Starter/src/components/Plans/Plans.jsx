@@ -7,7 +7,11 @@ import rightArrow from "../../assets/rightArrow.png"
 const Plans = () => {
     return (
         <>
-            <div className="plans">
+            <div className="plans" id='plans'>
+                <div className="blur plans-blur-1">
+                </div>
+                <div className="blur plans-blur-2">
+                </div>
                 <div className="plans-col-1">
                     <span className='stroke-text'>ready to start </span>
                     <span>your journey </span>

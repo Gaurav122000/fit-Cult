@@ -61,8 +61,8 @@
     font-size: 3.5rem;
     font-weight: bold;
     gap: 1rem;
-
 }
+
 
 .points{
     display: flex;
@@ -98,4 +98,63 @@
 
 .partners >  div > img {
     width: 3rem;
+}
+
+@media screen and (max-width: 768px) 
+{
+    .reasons {
+        flex-direction: column;        
+    }
+    
+    .right-r > :nth-child(1){
+        font-size: large;
+    }
+
+    .why-us{
+       flex-direction: column;
+       font-size: xx-large;
+       gap: 0.5rem;
+    }
+
+    .points > div{
+        font-size: small;
+    }
+
+    .points > div > img {
+        height: 1rem;
+        width: 1rem;
+    }
+
+    .partners{
+        font-size: small;
+    }
+
+    .partners >  div > img {
+        width: 2rem;
+    }
+
+    .left-r{
+        grid-auto-rows: auto;
+        overflow: hidden;
+    }
+    
+    .left-r > :nth-child(1){
+        width : 7rem;
+        height: 17rem;
+    }
+    .left-r > :nth-child(2){
+        width : 15rem;
+        height: 10rem;
+    }
+    .left-r > :nth-child(3){
+        width : 7rem;
+       
+    }
+    .left-r > :nth-child(4){
+        width : 7rem;
+        height: 6rem;
+    }
+
+
+
 }
