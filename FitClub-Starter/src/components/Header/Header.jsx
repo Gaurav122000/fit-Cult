@@ -57,7 +57,7 @@ const Header = () => {
               <li>
                 <Link
                   onClick={() => setMenuOpened(false)}
-                  to="reasons "
+                  to="reasons"
                   span={true}
                   smooth={true}>
                   Why Us
